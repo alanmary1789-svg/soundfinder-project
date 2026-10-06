@@ -1,0 +1,59 @@
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# =========================
+# IDE / OS
+# =========================
+
+.vscode/
+.idea/
+.DS_Store
+
+# =========================
+# SoundFinder - Local data
+# =========================
+
+# Local sample libraries and datasets
+data/
+datasets/
+samples/
+
+# Temporary/generated audio
+tmp/
+temp/
+workspace/
+
+# =========================
+# Machine Learning
+# =========================
+
+# Trained models / checkpoints
+models/
+checkpoints/
+*.ckpt
+*.pth
+*.pt
+
+# =========================
+# Logs
+# =========================
+
+*.log
+logs/
