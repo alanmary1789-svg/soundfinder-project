@@ -57,3 +57,11 @@ checkpoints/
 
 *.log
 logs/
+
+# =========================
+# Python packaging
+# =========================
+
+*.egg-info/
+build/
+dist/
