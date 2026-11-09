@@ -4,6 +4,10 @@ SoundFinder is an intelligent audio sample retrieval tool designed to integrate 
 
 Given a reference audio track, SoundFinder analyzes and separates its audio components, identifies the corresponding instruments using machine learning, and searches the user's local sample library for acoustically similar sounds.
 
+## Audio input specification
+
+The audio loader accepts WAV files and 320 kb/s MP3 files. Files longer than 4 seconds are rejected. Accepted files are converted to mono, resampled to 44.1 kHz, and represented internally as `float32` samples.
+
 ## Project status
 
 SoundFinder is currently under development as part of a student project.
