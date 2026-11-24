@@ -9,7 +9,9 @@ description = "Intelligent audio sample retrieval for music production"
 readme = "README.md"
 requires-python = ">=3.11,<3.12"
 
-dependencies = []
+dependencies = [
+    "numpy>=1.24,<3",
+]
 
 [project.optional-dependencies]
 dev = [
