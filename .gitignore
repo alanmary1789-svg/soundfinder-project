@@ -65,3 +65,19 @@ logs/
 *.egg-info/
 build/
 dist/
+
+
+# Fichiers audio et poids de modèles : jamais dans le dépôt (taille, droits d'auteur)
+*.wav
+*.mp3
+*.flac
+*.aif
+*.aiff
+*.ogg
+*.m4a
+*.safetensors
+*.pt
+*.ckpt
+
+# Exception : petits fichiers de test libres de droits, versionnés volontairement
+!tests/fixtures/**
