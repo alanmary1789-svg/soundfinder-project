@@ -25,3 +25,8 @@ SoundFinder is currently under development as part of a student project.
 ## Team
 
 Student project developed by a team of 5.
+
+## Charles 9/11/2026
+Le fichier loader.py contient la logique d’acceptation des fichiers audio. SoundFinder accepte les fichiers WAV ainsi que les MP3 à 320 kb/s, refuse les autres extensions, les fichiers inexistants, les fichiers de plus de 4 secondes et les MP3 dont le débit est différent de 320 kb/s. Les fichiers acceptés sont convertis en mono, rééchantillonnés à 44,1 kHz et transformés en float32.
+
+Les tests de test_audio_loader.py vérifient la normalisation d’un WAV stéréo, le rééchantillonnage, le format float32, le rejet d’un fichier de plus de 4 secondes et le rejet d’une extension non supportée. Au total, les quatre tests du projet passent avec succès.
